@@ -1,0 +1,19 @@
+name: chimpwizards-npm-publish
+description: Publish NPM Package to  NPM Repository
+author: ndru@chimpeizard.com
+branding:
+  icon: 'box'  
+  color: 'red'
+inputs:
+  NPM_USERNAME:
+    description: 'NPM Repository Username'
+    required: true
+  NPM_AUTH_EMAIL:
+    description: 'NPM Repository user email'
+    required: true
+  NPM_AUTH_TOKEN_BASE64:
+    description: 'NPM Repository Access Token'
+    required: true    
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'

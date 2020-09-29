@@ -1,0 +1,19 @@
+{
+  "name": "@chimpwizard-pipeline/npm-publish",
+  "version": "1.0.0-prealpha.1",
+  "description": "Publish NPM Package to  NPM Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimpwizard-pipeline/npm-publish.git"
+  },
+  "author": "ndru@chimpwizard.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimpwizard-pipeline/npm-publish/issues"
+  },
+  "homepage": "https://github.com/chimpwizard-pipeline/npm-publish#readme"
+}
