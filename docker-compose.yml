@@ -4,4 +4,4 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: 'chimpwizards/pipeline-npm-publish-github-action'
+        image: 'chimpwizards/pipeline-npm-publish'
