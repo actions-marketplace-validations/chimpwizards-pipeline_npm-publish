@@ -9,10 +9,14 @@ ls -la
 # npm config ls
 # npm config ls -l
 
+echo "*** env ***"
+env
+
 echo "*** npmrc file ***"
 cat .npmrc 
 
 echo "******************"
 echo "*** PUBLISHING"
 echo "******************"
-npm publish
+cd ./dist
+npm publish --access public
