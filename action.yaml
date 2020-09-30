@@ -16,4 +16,5 @@ inputs:
     required: true    
 runs: 
   using: 'docker'
-  image: 'Dockerfile'
+  image: docker://chimpwizards/pipeline-npm-publish:latest        
+  #image: 'Dockerfile'  

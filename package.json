@@ -4,7 +4,8 @@
   "description": "Publish NPM Package to NPM Repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm version patch"
   },
   "repository": {
     "type": "git",
