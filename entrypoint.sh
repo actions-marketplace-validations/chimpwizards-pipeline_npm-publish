@@ -6,10 +6,8 @@ cat /templates/.npmrc | envsubst > .npmrc
 # npm version patch --force -m "Auto increase version"
 
 ls -la
-
-npm config ls
-
-npm config ls -l
+# npm config ls
+# npm config ls -l
 
 echo "*** npmrc file ***"
 cat .npmrc 
