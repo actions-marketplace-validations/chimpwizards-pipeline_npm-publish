@@ -1,6 +1,6 @@
 {
   "name": "@chimpwizard-pipeline/npm-publish",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Publish NPM Package to NPM Repository",
   "main": "index.js",
   "scripts": {
